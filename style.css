@@ -469,9 +469,12 @@ section {
 
 .study-feat-stack {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-  width: 100%;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  gap: 7px;
+  /* width: 100%; */
+  margin-top: 22px;
+
 }
 
 /* override the existing .study-feat to work in a vertical stack */
